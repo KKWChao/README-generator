@@ -1,24 +1,33 @@
-README Generator
-&middot;
+
+# README Generator 
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-====
 
 ## Contents
+
+---
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Contact Me](#contact)
+- [Contact](#contact)
 
 ## Description
 
-A javascript program to automatically generate a readme file from command line inputs.
+---
+
+A basic project that generates a readme through the command line
 
 ## Installation
 
+---
+
+
+
 ```
-git clone https://github.com/KKWChao/README-generator.git
+git clone https://github.com/KKWChao/README-generator
 
 npm init
 
@@ -26,10 +35,30 @@ npm install inquirer
 ```
 
 ## Usage
+
+---
+
 Personal/Professional
+
 ## Contributing
+
+---
+
 Me
+
+
 ## Tests
-None so
-## Contact Me
-Gihub: KKWChao
+
+---
+
+
+
+## Contact
+
+---
+
+### Github<br>
+- https://github.com/KKWChao
+### Email Address<br>
+
+  
