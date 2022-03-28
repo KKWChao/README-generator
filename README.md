@@ -17,6 +17,14 @@ A javascript program to automatically generate a readme file from command line i
 
 ## Installation
 
+```
+git clone [repo name]
+
+npm init
+
+npm install inquirer
+```
+
 ## Usage
 
 ## Contributing
