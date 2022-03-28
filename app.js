@@ -82,7 +82,7 @@ const promptUser = () => {
         "GNU",
         "IBM",
         "OpenBSD",
-        "Rust",
+        "Mozilla",
         "MIT",
       ],
     },
@@ -101,6 +101,11 @@ const promptUser = () => {
     },
     {
       type: "input",
+      name: "repo",
+      message: "Enter the repository url"
+    },
+    {
+      type: "input",
       name: "userEmail",
       message: "Enter your email (REQUIRED)",
       validate: (userEmail) => {
@@ -116,11 +121,7 @@ const promptUser = () => {
 };
 
 promptUser().then((userData) => {
-  console.log(userData);
   const readmeGEN = generateREADME(userData)
-  console.log(readmeGEN)
-
-  fs.writeFile('./testread.md', readmeGEN, err => {if (err) throw new Error(err);
-  
+  fs.writeFile('./README.md', readmeGEN, err => {if (err) throw new Error(err);
   console.log('Page Created!')})
 });

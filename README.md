@@ -30,6 +30,6 @@ Personal/Professional
 ## Contributing
 Me
 ## Tests
-None so far
+None so
 ## Contact Me
 Gihub: KKWChao
