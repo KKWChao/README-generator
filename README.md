@@ -18,7 +18,7 @@ A javascript program to automatically generate a readme file from command line i
 ## Installation
 
 ```
-git clone [repo name]
+git clone https://github.com/KKWChao/README-generator.git
 
 npm init
 
@@ -26,9 +26,10 @@ npm install inquirer
 ```
 
 ## Usage
-
+Personal/Professional
 ## Contributing
-
+Me
 ## Tests
-
+None so far
 ## Contact Me
+Gihub: KKWChao
