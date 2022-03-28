@@ -80,6 +80,7 @@ module.exports = templateData => {
   ${templateData.test}
 
   ## Contact Me
+  ${templateData.userGithub}
   ${templateData.userEmail}
   `
 }

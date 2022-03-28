@@ -79,12 +79,10 @@ const promptUser = () => {
       message: "Chooses License that to apply",
       choices: [
         "Apache",
-        "Cloud Native Computing Foundation",
         "GNU",
-        "NPM Packages",
+        "IBM",
         "OpenBSD",
         "Rust",
-        "WordPress",
         "MIT",
       ],
     },
